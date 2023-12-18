@@ -792,7 +792,6 @@ section{
     .line-div p {
         width: 100%;
         margin-top: -5%;
-        text-align: center;
     }
 
     .true{
@@ -965,12 +964,62 @@ section{
     }
 
     .faq-div{
-        padding: 0 10px!important;
+        padding: 50px 10px!important;
+    }
+
+    .faq{
+        margin-bottom: 15%;
     }
 
     .accordion{
         width: 100%!important;
         margin: 0!important;
     }
-   
+
+    .get{
+        flex-direction: column;
+    }
+
+    .footer h3 {
+        font-size: 30px;
+        text-align: center;
+        font-weight: 500;
+        line-height: 130%;
+        letter-spacing: -1.44px;
+        width: 100%;
+    }
+
+    .footer p {
+        font-size: 18px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 175%;
+    }
+
+    .icons {
+        margin-left: 73px;
+        margin-bottom: 25px;
+    }
+
+    .footer h5{
+        text-align: center;
+    }
+
+    .foot-div {
+    padding-top: 20px;
+    }
+
+    .foot {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .contact {
+        flex-direction: column;
+        margin-top: 25px;
+    }
+
+ 
 }
