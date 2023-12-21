@@ -13,25 +13,26 @@ section{
     height: auto;
 }
 
-.navbar{
-    display: flex;
-}
 
-.about {
-    display: flex;
-    gap: 20px;
-    margin-top: 45px;
-}
 
-.line{
-    width: 1px;
-    height: 45px;
-    background: gray;
+.na{
+    justify-content: space-between;
+    margin-left: 80px;
 }
 
 .home{
     display: flex;
     gap: 35px;
+    border-left: 1px solid gray;
+}
+
+.home img{
+    width: 40%;
+    height: 60px;
+}
+
+.home p{
+    width: 200%;
 }
 
 .text h2{
@@ -645,6 +646,15 @@ section{
 
     .home {
         gap: 20px;
+        margin-left: 0;
+    }  
+
+    .na{
+        margin-left: 0;
+    }
+
+    .home img {
+        width: 10%;
     }
 
     .text h2 {
@@ -764,7 +774,7 @@ section{
     }
 
     .num{
-        margin-top: -10%!important;
+        margin-top: -10%;
     }
 
     .brand{
@@ -818,10 +828,6 @@ section{
 
     .section{
         overflow: hidden;
-    }
-
-    .about{
-        display: none;
     }
 
     .logo{
@@ -1189,3 +1195,5 @@ section{
 
  
 }
+
+
