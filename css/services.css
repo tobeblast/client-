@@ -20,7 +20,7 @@
 
 .home {
     display: flex;
-    gap: 35px;
+    gap: 25px;
     border-left: 1px solid gray;
 }
 
@@ -28,6 +28,7 @@
     width: 40%;
     height: 60px;
     margin-top: 5px;
+    margin-left: 25px
 }
 
 .home p {
@@ -123,11 +124,18 @@
     opacity: 0.6;
 }
 
+.arrow-div{
+    gap: 30px;
+}
+
 .arrow-div h6 {
-    width: 30%;
     font-family: manrope;
     font-weight: 600;
     font-style: normal;
+}
+
+.arrow img{
+    margin-top: -5px;
 }
 
 .don {
@@ -248,6 +256,135 @@
     background-color: #FF6433;
 }
 
+.how-div{
+    padding-top: 45px;
+    padding-bottom: 30px ;
+}
+
+.how :nth-child(2){
+    margin-top: 25px;
+}
+
+.how h2{
+    color: var(--Black, #1E1B1B);
+    font-family: Manrope;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: -1.44px;
+}
+
+.check{
+    gap: 30px;
+}
+
+.how p{
+    width: 62%;    
+    color: var(--Black, #232536);
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.72px;
+}
+
+.two-car{
+    gap: 20px;
+}
+
+.last2{
+    gap: 55px;
+    padding-bottom: 25px;
+}
+
+.tyre-bon{
+    gap: 20px;
+}
+
+.problem h3{
+    color: var(--Black, #1E1B1B);
+    font-family: Manrope;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -1.44px;
+}
+
+.problem p{
+    color: var(--Black, #232536);
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.72px;
+    opacity: 0.6;
+}
+
+.problem button{
+    display: inline-flex;
+    padding: 16px 40px;
+    align-items: flex-start;
+    border-radius: 12px;
+    color: white;
+    border: 0;
+    background: var(--Primary, #FF6433);
+}
+
+.footer {
+    padding-top: 5%;
+    margin-top: 3%;
+    opacity: 0.98;
+    background: var(--Black, #302b2b);
+}
+
+.footer h3 {
+    font-family: Manrope;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: -1.44px;
+    width: 70%;
+}
+
+.footer p {
+    color: gray;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 175%;
+}
+
+.icons {
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.foot-div {
+    background: var(--Black, #1E1B1B);
+    padding-top: 20px;
+}
+
+.foot {
+    justify-content: space-between;
+}
+
+.contact {
+    gap: 20px;
+}
+
+.contact p {
+    color: white;
+}
+
+
+
+
 @media(max-width:768px) {
 
     .leg{
@@ -297,6 +434,40 @@
         margin-left: -17%;
     }
 
+    .how-div{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 35px;
+    }
+
+    .how h2{
+        text-align: center;
+    }
+
+    .how :nth-child(2){
+        margin-top: 10px;
+    }
+    .how p{
+        margin: 10px 0!important;
+    }
+
+    .last2{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .problem h3{
+        text-align: center;
+    }
+
+    .foot {
+        padding: 0;
+    }
+
+    .contact {
+        gap: 13px;
+    }
 }
 
 
@@ -359,10 +530,6 @@
     .arrow-div{
         width: 100%;
         text-align: start;
-    }
-
-    .arrow{
-        margin-left: -140px;
     }
 
     .arrow-div h6 {
@@ -449,6 +616,89 @@
         margin-top: 5%;
     }
 
+    .how-div{
+        padding-bottom: 25px;
+    }
+
+    .how h2 {
+        font-size: 38px;
+        width: 100%;
+        line-height: 40px;
+        font-weight: 300;
+    }
+
+    .how p{
+        width: 100%;
+    }
+
+    .check {
+        gap: 20px;
+    }
+
+    .two-car{
+        flex-direction: column;
+        row-gap: 45px;
+    }
+
+    .last2{
+        padding-top: 0;
+    }
+    .problem h3{
+        font-size: 38px;
+        width: 100%;
+        line-height: 50px;
+        font-weight: 300;
+    }
+
+    .tyre-bon{
+        flex-direction: column;
+        row-gap: 45px;
+    }
+
+    .get {
+        flex-direction: column;
+    }
+
+    .footer h3 {
+        font-size: 30px;
+        text-align: center;
+        font-weight: 500;
+        line-height: 130%;
+        letter-spacing: -1.44px;
+        width: 100%;
+    }
+
+    .footer p {
+        font-size: 18px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 175%;
+    }
+
+    .icons {
+        margin-left: 73px;
+        margin-bottom: 25px;
+    }
+
+    .footer h5 {
+        text-align: center;
+    }
+
+    .foot-div {
+        padding-top: 20px;
+    }
+
+    .foot {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .contact {
+        flex-direction: column;
+        margin-top: 25px;
+    }
     
 
    

@@ -590,7 +590,8 @@ section{
 }
 
 .footer{
-    padding-top: 10%;
+    padding-top: 5%;
+    margin-top: 3%;
     opacity: 0.98;
     background: var(--Black, #302b2b);
 }
