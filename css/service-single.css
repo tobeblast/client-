@@ -124,7 +124,7 @@ h1{
     background: url('../image/Circle.svg');
     box-shadow: 2px 2px 5px gray;
     width: 107px;
-    height: 47px;
+    height: 48px;
     background-position: center;
     align-items: center;
     border-radius: 100px;
@@ -170,7 +170,7 @@ h1{
 
 .ut{
     position: relative;
-    top: -10px;
+    top: -45px;
     margin-top: 8%;
 }
 
@@ -287,13 +287,255 @@ h1{
 
 @media(max-width:768px){
 
+    .ot-con{
+        gap: 29px;
+    }
     .warning {
-        margin-top: -53%;
+        margin-top: -75%;
+        width: 100%;
     }
 
     .warning h4 {
-        font-size: 30px;
+        font-size: 26px;
         font-weight: 600;
         text-align: center;
+    }
+
+    .road {
+        font-size: 26px!important;
+        font-weight: 600!important;
+        text-align: center!important;
+        line-height: 30px!important;
+    }
+
+    .warning p{
+        font-size: 13px;
+        width: 100%!important;
+        margin-bottom: 0;
+        line-height: 23px;
+    }
+
+
+
+    .Convenient p{
+        font-size: 13px;
+    }
+
+    .Convenient h5{
+        font-size: 18px;
+    }
+
+    .i-div {
+        gap: 10px;
+    }
+
+    .icon {
+        width: 80px;
+        height: 44px;
+        margin-top: 0;
+    }
+
+    .i-div p {
+        width: 100%;    
+    }
+
+    .ut {
+        width: 100%;
+        /* top: 1px;        */
+    }
+
+    .ut img {
+        width: 4px;
+        top: 20px;
+        height: 80px;
+        z-index: 2;
+    }
+
+    .ut p {
+        margin-bottom: 0;
+        top: 15px;
+        margin-left: 20px!important;
+    }
+
+    .back-car {
+        width: 100%;
+    }
+
+    .back-car img{
+        width: 100%;
+        height: 355px;
+    }
+
+    .orange {
+        height: 355px;
+    }
+
+    .wire {
+        width: 100%;
+    }
+
+    .foot {
+        padding: 0;
+    }
+
+    .foot p{
+        margin-bottom: 0!important;
+    }
+    .contact {
+        gap: 13px;
+    }
+
+    .copy{
+        margin-top: 3px;
+    }
+}
+
+@media(max-width:500px){
+
+
+    .ot-con{
+        flex-direction: column;  
+        gap: 0;      
+    }
+
+    .other-div{
+        width: 100%!important;
+    }
+
+    .other {
+        width: 100%;
+    }
+
+    .Convenient{
+        width: 100%!important;
+        height: 100%!important;
+        margin-bottom: 25px
+    }
+
+    .i-div p{
+        width: 100%!important;
+    }
+
+    .icon {
+        width: 80px;
+        height: 41px;
+        margin-top: 0;
+    }
+
+    .car{
+        width: 100%!important;
+    }
+
+    .warning {
+        margin-top: 0;
+    }
+
+    .road {
+        font-size: 26px;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    .ut {
+        top: -35px;
+        margin-top: 20%;
+        width: 100%;
+    }
+
+    .ut img {
+        top: 15px;
+    }
+
+    .ut p {
+        top: 0;
+    }
+
+    .back {
+        flex-direction: column;
+        width: 100% !important;
+        row-gap: 10px;
+    }
+
+    .back-car {
+        width: 100% !important;
+        height: auto;
+        margin-top: 25%!important;
+    }
+
+    .back-car img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .orange {
+        text-align: center;
+        left: 30%;
+        margin-right: -4%;
+        height: 200px;
+        padding: 3px;
+    }
+
+    .orange p {
+        font-size: 28px;
+        font-weight: 50;
+        width: 100%;
+        line-height: 130%;
+        margin-top: 0;
+    }
+
+    .wire {
+        height: 300px;
+        padding: 0;
+        width: 100%;
+    }
+
+    .wire img {
+        width: 250%;
+        height: 100%;
+    }
+
+    .get {
+        flex-direction: column;
+    }
+
+    .footer h3 {
+        font-size: 30px;
+        text-align: center;
+        font-weight: 500;
+        line-height: 130%;
+        letter-spacing: -1.44px;
+        width: 100%;
+    }
+
+    .footer p {
+        font-size: 18px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 175%;
+    }
+
+    .icons {
+        margin-left: 73px;
+        margin-bottom: 25px;
+    }
+
+    .footer h5 {
+        text-align: center;
+    }
+
+    .foot-div {
+        padding-top: 20px;
+    }
+
+    .foot {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .contact {
+        flex-direction: column;
+        margin-top: 25px;
     }
 }
