@@ -3,3 +3,277 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+section {
+    overflow: hidden;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10%;
+}
+
+.na {
+    justify-content: space-between;
+    margin-left: 80px;
+}
+
+.home {
+    display: flex;
+    gap: 35px;
+    border-left: 1px solid gray;
+}
+
+.home img {
+    width: 40%;
+    height: 60px;
+}
+
+.home p {
+    width: 200%;
+}
+
+.touch{
+    width: 50%;
+}
+
+h1{
+    color: var(--Black, #1E1B1B);    
+    font-family: Manrope;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: -1px;
+    width: 38%;
+}
+
+.touch :nth-child(1) {
+    width: 480px;
+    margin: 15px 0;
+    height: 72px;
+    align-items: center;
+    display: flex;
+    padding-left: 35px;
+    border-radius: 2px;
+    background: var(--Light-Grey, #F2F2F2);}
+
+.touch :nth-child(2) {
+    width: 480px;
+    margin: 15px 0;
+    height: 72px;
+    align-items: center;
+    padding-left: 35px;
+    display: flex;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: var(--Light-Grey, #F2F2F2);}
+
+.touch :nth-child(3) {
+    width: 480px;
+    margin: 15px 0;
+    padding-left: 35px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    align-items: center;
+    display: flex;
+    background: var(--Light-Grey, #F2F2F2);
+}
+
+.touch :nth-child(4) {
+    width: 480px;
+    height: 72px;
+    padding-left: 35px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: var(--Light-Grey, #F2F2F2);    margin: 15px 0;
+    align-items: center;
+    display: flex;
+}
+
+.touch button{
+    border-radius: 12px;
+    background: var(--Primary, #FF6433);
+    display: inline-flex;
+    padding: 16px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 0;
+    color: white;
+}
+
+.address{
+    width: 50%;
+}
+
+.address p{
+    color: var(--Black, #1E1B1B);    
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    opacity: 0.7;  
+    margin-bottom: 0;      
+}
+
+.address h5{
+    color: var(--Black, #1E1B1B);    
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.72px;
+}
+
+main{
+    height: 50vh;
+}
+.map{
+    position: relative;
+    justify-content: center;
+}
+
+.map img{
+    position: absolute;
+    width: 100%;
+    top: 45px;
+}
+
+.foot-div {
+    background: var(--Black, #1E1B1B);
+    padding-top: 20px;
+}
+
+.foot {
+    justify-content: space-between;
+}
+
+.contact {
+    gap: 20px;
+}
+
+.contact p {
+    color: white;
+}
+
+footer p {
+    font-family: Manrope;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 175%;
+}
+
+@media(max-width:768px){
+
+    h1 {
+        width: 50%;
+        font-size: 55px;
+        font-weight: 600;
+        line-height: 65px;
+    }
+
+    .to-ad {
+        gap: 45px;
+    }
+
+    .touch :nth-child(1) {
+        width: 100%;
+    }
+
+    .touch :nth-child(2) {
+        width: 100%;
+    }
+
+    .touch :nth-child(3) {
+        width: 100%;
+    }
+
+    .touch :nth-child(4) {
+        width: 100%;
+    }
+
+    .map img {
+        top: 120px!important;
+    }
+
+    .foot {
+        padding: 0;
+    }
+
+    .contact {
+        gap: 13px;
+    }
+
+    .wo img{
+        width: 100%;
+    }
+
+}
+
+@media(max-width:500px){
+
+    h1{
+        width: 100%;
+        text-align: center;
+        font-size: 45px;
+        font-weight: 500;
+        line-height: 60px;
+    }
+
+    .to-ad{
+        flex-direction: column;
+        row-gap: 45px;
+    }
+
+    .touch{
+        width: 100%;
+    }
+
+    .touch :nth-child(1) {
+        width: 100%;
+    }
+    
+    .touch :nth-child(2) {
+        width: 100%;
+    }
+    
+    .touch :nth-child(3) {
+        width: 100%;
+    }
+    
+    .touch :nth-child(4) {
+        width: 100%;
+    }
+
+    .address{
+        width: 100%;
+        text-align: center;
+    }
+
+    .map img {
+        top: 232px!important;
+    }
+
+    .foot-div {
+        padding-top: 20px;
+    }
+
+    .foot {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .contact {
+        flex-direction: column;
+        margin-top: 25px;
+    }
+
+
+}
