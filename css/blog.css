@@ -243,6 +243,97 @@ h1{
     letter-spacing: -0.96px;
     width: 78%;
 }
+
+.back {
+    gap: 0;
+}
+
+.back-car {
+    flex-shrink: 0;
+}
+
+.back-car img {
+    width: 100%;
+}
+
+
+.orange {
+    background: #FF6433;
+    left: 31%;
+    margin-right: -6%;
+    z-index: 1;
+    top: 0%;
+    height: 354.5px;
+    flex-shrink: 0;
+    padding: 40px;
+}
+
+.orange p {
+    font-size: 38px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 100;
+    width: 85%;
+    line-height: 140%;
+    letter-spacing: -1.44px;
+}
+
+.wire {
+    flex-shrink: 0;
+}
+
+.wire img {
+    width: 100%;
+    height: 354.5px;
+}
+
+.footer {
+    margin-top: 0;
+    padding-top: 5%;
+    opacity: 0.98;
+    background: var(--Black, #302b2b);
+}
+
+.footer h3 {
+    font-family: Manrope;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: -1.44px;
+    width: 70%;
+}
+
+.footer p {
+    color: gray;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 175%;
+}
+
+.icons {
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.foot-div {
+    background: var(--Black, #1E1B1B);
+    padding-top: 20px;
+}
+
+.foot {
+    justify-content: space-between;
+}
+
+.contact {
+    gap: 20px;
+}
+
+.contact p {
+    color: white;
+}
 @media(max-width:768px){
 
     .trend {
@@ -289,6 +380,59 @@ h1{
         flex-direction: column;
         margin: 0;
     }
+
+    .back{
+        display: flex;
+        height: auto;    
+    }
+
+    .back-car {
+       width: 50%;
+       padding: 0;
+    }
+
+    .back-car img {
+       width: 100%;
+       height: 200px;
+    }
+
+    .orange {
+       text-align: center;
+       left: 30%;
+       margin-right: -4%;
+       height: 200px;
+       padding: 3px;
+    }
+
+    .orange p {
+       font-size: 28px;
+       font-weight: 50;
+       width: 100%;
+       line-height: 130%;
+       margin-top: 0;
+    }
+
+    .wire {
+       padding: 0;
+       width: 50%;
+    }
+
+    .wire img {
+       width: 100%;
+       height: 200px;
+    }
+
+    .foot {
+        padding: 0;
+    }
+
+    .contact {
+        gap: 13px;
+    }
+
+    .copy{
+        margin-top: 3px
+    }
 }
 
 @media(max-width:500px){
@@ -305,4 +449,157 @@ h1{
     .trend{
         width: 100%;
     }
+
+    .plate{
+        width: 100%!important;
+    }
+
+    .plate-no {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .plate h6 {
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 35px;
+        letter-spacing: -0.9px;
+        width: 100%;
+    }
+
+    .ai{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .electric{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .first {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .first img{
+        width: 100%;
+    }
+
+    .first h6{
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 35px;
+        letter-spacing: -0.9px;
+        width: 100%;
+    }
+
+    .second{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .second img{
+        width: 100%;
+    }
+
+    .second h6{
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 35px;
+        letter-spacing: -0.9px;
+        width: 100%;
+    }
+
+    .back {
+        flex-direction: column;
+        width: 100% !important;
+    }
+
+    .back-car {
+        width: 100% !important;
+        height: auto;
+    }
+
+    .back-car img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .orange {
+        text-align: center;
+        left: 30%;
+        margin-right: -4%;
+        height: 200px;
+        padding: 3px;
+    }
+
+    .orange p {
+        font-size: 28px;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 50;
+        width: 100%;
+        line-height: 140%;
+        letter-spacing: -1.44px;
+    }
+
+    .wire {
+        height: auto;
+        padding: 0!important;
+        margin-left: 12px;
+        width: 100%!important;
+        flex-shrink: none;
+    }
+
+    .wire img {
+        width: 100%!important;
+        height: 200px;
+    }
+
+    .get {
+        flex-direction: column;
+    }
+
+    .footer h3 {
+        font-size: 30px;
+        text-align: center;
+        font-weight: 500;
+        line-height: 130%;
+        letter-spacing: -1.44px;
+        width: 100%;
+    }
+
+    .footer p {
+        font-size: 18px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 175%;
+    }
+
+    .icons {
+        margin-left: 73px;
+        margin-bottom: 25px;
+    }
+
+    .footer h5 {
+        text-align: center;
+    }
+
+    .foot-div {
+        padding-top: 20px;
+    }
+
+    .foot {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .contact {
+        flex-direction: column;
+        margin-top: 25px;
+    }
+
 }
