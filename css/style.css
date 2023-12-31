@@ -210,13 +210,14 @@ section{
 }
 
 .btn2{
-    background: url('../image/Circle/ Bottom.png');
+    background: url('../image/Circle Bottom.png');
     background-color: blue;
     width: 50px;
     height: 50px;
     flex-shrink: 0;
     border-radius: 60%;
     border: 0;
+    background-position: bottom;
 }
 
 .book{
