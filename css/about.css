@@ -124,6 +124,90 @@ h1{
     margin-left: -22%;
 }
 
+/*.orange1{
+    background: url('../image/Steps Right.png');
+    background-color: hsl(355, 100%, 74%);
+    width: 33.3%;
+    height: 40vh;
+}
+
+.black1{
+    background-image: url('../image/wire.png');
+
+    width: 33.3%;
+    height: 40vh;
+}
+
+.purple{
+    background-image: url('../image/wire.png');
+    width: 33.3%;
+    height: 40vh;
+}*/
+
+.valued{
+    justify-content: center;
+}
+
+.valued h2{
+    color: var(--Black, #1E1B1B);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1.74px;
+    width: 60%;
+}
+
+.white{
+    border: 1px solid #EBEBEB;
+    background: #FFF;
+    box-shadow: 11px 130px 100px 30px rgba(0, 0, 0, 0.02);
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+.set{
+    background: url('../image/Group 2115.svg');
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+    background-repeat: no-repeat;
+    margin-bottom: -25px;
+}
+
+.set-div{
+    height: 60%;
+}
+.set-div h4{
+    color: var(--Black, #1E1B1B);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.96px;
+}
+
+.set-div p{
+    color: var(--Black, #232536);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    opacity: 0.6;
+    width: 80%;
+    margin-left: 40px;
+}
+
+
 @media(max-width:768px){
 
     .black-div{

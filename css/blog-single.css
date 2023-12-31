@@ -176,6 +176,10 @@ h4{
   letter-spacing: -1.2px;
 }
 
+.foot-div a{
+  text-decoration: none!important;
+}
+
 
 @media(max-width:768px){
 

@@ -169,6 +169,10 @@ footer p {
     line-height: 175%;
 }
 
+.foot-div a {
+    text-decoration: none !important;
+}
+
 @media(max-width:768px){
 
     h1 {
