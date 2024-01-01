@@ -13,6 +13,10 @@ section {
     height: auto;
 }
 
+ul {
+    margin-left: 15%;
+}
+
 .na {
     justify-content: space-between;
     margin-left: 80px;
@@ -25,8 +29,7 @@ section {
 }
 
 .home img {
-    width: 40%;
-    height: 60px;
+    margin-left: 30px;
 }
 
 .home p {
@@ -341,6 +344,20 @@ h1{
 
 @media(max-width:768px){
 
+
+    .home img{
+        width: 15%;
+    }
+
+    .home p{
+        margin-top: 17px;
+    }
+    .na {
+        margin: 0;
+    }
+    ul {
+        margin-left: 0;
+    }
     .trend {
         opacity: 0.99;
         background: var(--Black, #1E1B1B);
@@ -441,6 +458,14 @@ h1{
 }
 
 @media(max-width:500px){
+
+    ul {
+        margin-left: 0;
+    }
+
+    .home img{
+        width: 30%;
+    }
 
     .blog-div{
         flex-direction: column;

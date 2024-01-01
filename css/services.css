@@ -15,24 +15,24 @@
 
 .na {
     justify-content: space-between;
-    margin-left: 80px;
 }
 
 .home {
     display: flex;
-    gap: 25px;
+    gap: 35px;
     border-left: 1px solid gray;
 }
 
-.home img {
-    width: 40%;
-    height: 60px;
-    margin-top: 5px;
-    margin-left: 25px
+.home p{
+    width: 200%;
 }
 
-.home p {
-    width: 200%;
+ul {
+    margin-left: 20%;
+}
+
+.home img{
+    margin-left: 30px;
 }
 
 .black-div {
@@ -389,6 +389,22 @@
 
 @media(max-width:768px) {
 
+    .home p{
+        margin-top: 20px;
+    }
+
+    .home img{
+        width: 15%;
+    }
+    
+    .na {
+        margin: 0;
+    }
+
+    ul {
+        margin-left: 0;
+    }
+
     .leg{
         width: 100%;
         margin-left: -10px!important;
@@ -474,6 +490,20 @@
 
 
 @media(max-width:500px){
+
+    ul {
+        margin-left: 0;
+    }
+
+    .home img{
+        width: 20%;
+        height: 30%;
+        margin-top: 10px;
+    }
+
+    .home p{
+        margin-top: 0;
+    }
 
     .leg {
         width: 100%;

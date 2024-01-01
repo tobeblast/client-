@@ -8,6 +8,10 @@ section {
     overflow: hidden;
 }
 
+ul {
+    margin-left: 17%;
+}
+
 .header {
     width: 100%;
     height: auto;
@@ -24,10 +28,10 @@ section {
     border-left: 1px solid gray;
 }
 
-.home img {
-    width: 40%;
-    height: 60px;
+.home img{
+    margin-left: 30px;
 }
+
 
 .home p {
     width: 200%;
@@ -423,6 +427,21 @@ footer{
 
 @media(max-width:768px){
 
+    .home img{
+        width: 15%;
+    }
+
+    .home p{
+        margin-top: 20px;
+    }
+    .na {
+        margin: 0;
+    }
+
+    ul {
+        margin-left: 0;
+    }
+
     .black-div{
         width: 50%!important;
     }
@@ -556,6 +575,20 @@ footer{
 }
 
 @media(max-width:500px){
+
+    ul {
+        margin-left: 0;
+    }
+
+    .home img {
+        width: 20%;
+        height: 30%;
+        margin-top: 10px;
+    }
+
+    .home p{
+        margin-top: 0;
+    }
 
     .men{
         width: 100%!important;

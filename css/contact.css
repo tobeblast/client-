@@ -4,14 +4,17 @@
     box-sizing: border-box;
 }
 
-section {
+.section {
     overflow: hidden;
 }
 
 .header {
     width: 100%;
     height: auto;
-    margin-bottom: 10%;
+}
+
+ul {
+    margin-left: 17%;
 }
 
 .na {
@@ -26,8 +29,7 @@ section {
 }
 
 .home img {
-    width: 40%;
-    height: 60px;
+    margin-left: 30px;
 }
 
 .home p {
@@ -175,6 +177,22 @@ footer p {
 
 @media(max-width:768px){
 
+    .na {
+        margin: 0;
+    }
+
+    .home img{
+        width: 15%;
+    }
+
+    .home p{
+        margin-top: 20px;
+    }
+
+    ul {
+        margin-left: 0;
+    }
+
     h1 {
         width: 50%;
         font-size: 55px;
@@ -221,6 +239,16 @@ footer p {
 }
 
 @media(max-width:500px){
+
+    ul {
+        margin-left: 0;
+    }
+
+    .home img{
+        width: 30%;
+        height: 30%;
+        margin-top: 12px;
+    }
 
     h1{
         width: 100%;

@@ -13,6 +13,10 @@ section {
   height: auto;
 }
 
+ul {
+  margin-left: 17%;
+}
+
 .na {
   justify-content: space-between;
   margin-left: 80px;
@@ -25,8 +29,7 @@ section {
 }
 
 .home img {
-  width: 40%;
-  height: 60px;
+  margin-left: 30px;
 }
 
 .home p {
@@ -183,9 +186,26 @@ h4{
 
 @media(max-width:768px){
 
+  .home img{
+    width: 15%;
+  }
+
+  .home p{
+    margin-top: 14px;
+  }
+
+  .na {
+    margin: 0;
+  }
+
+  ul {
+    margin-left: 0;
+  }
+
   .car{
     display: none!important;
   }
+
   .car-mobile{
     display: block;
   }
@@ -252,7 +272,18 @@ h4{
   }
 }
 
+
 @media(max-width:500px){
+
+  .home img{
+    width: 30%;
+    height: 30%;
+    margin-top: 10px;
+  }
+  
+  ul {
+    margin-left: 0;
+  }
 
   .car{
     display: none!important;
