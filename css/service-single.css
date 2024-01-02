@@ -140,6 +140,7 @@ h1{
 
 .warning{
     margin-top: -33%;
+    margin-bottom: 45%;
 }
 
 .warning h4{
@@ -169,26 +170,13 @@ h1{
     width: 100%;
 }
 
-.ut{
-    position: relative;
-    top: -45px;
-    margin-top: 8%;
-}
-
 .ut img{
     width: 5px;
-    position: absolute;
-    top:-10%;
     height: 85px;
-    z-index: 2;
 }
 
 .ut p{
-    position: absolute;
-    margin-bottom: 0;
-    top: 0;
-    z-index: 2;
-    width: 85%;
+    width: 100%;
 }
 
 .back {
@@ -201,6 +189,7 @@ h1{
 
 .back-car img {
     width: 100%;
+    height: 300px;
 }
 
 
@@ -210,7 +199,7 @@ h1{
     margin-right: -6%;
     z-index: 1;
     top: 0%;
-    height: 354.3px;
+    height: 300px;
     flex-shrink: 0;
     padding: 40px;
 }
@@ -234,12 +223,12 @@ h1{
 
 .wire img {
     width: 100%;
-    height: 353.8px;
+    height: 300px;
 }
 
 .footer {
+    margin-top: -12%;
     padding-top: 5%;
-    margin-top: 3%;
     opacity: 0.98;
     background: var(--Black, #302b2b);
 }

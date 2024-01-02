@@ -435,7 +435,6 @@ ul {
 }
 
 .arrow2{
-    margin-left: -5%;
     gap: 30px;
 }
 
@@ -488,7 +487,7 @@ ul {
     align-items: end;
     justify-content: center;
     gap: 80px;
-    margin-top: -20px;
+    margin-top: -8%;
     width: 100%;
 }
 
@@ -594,7 +593,6 @@ ul {
 
 .footer{
     padding-top: 5%;
-    margin-top: 3%;
     opacity: 0.98;
     background: var(--Black, #302b2b);
 }
@@ -768,8 +766,8 @@ ul {
     }
 
     .arrow2{
-        width: 50%!important;
-        gap: 20px;
+        width: 70%!important;
+        gap: 70px;
     }
 
     .know{
@@ -1071,8 +1069,8 @@ ul {
     }
 
     .arrow2 {
-        margin-left: 0;
-        gap: 30px;
+        margin-left: 0!important;
+        gap: 55px;
         width: 100%!important;
     }
 
@@ -1166,7 +1164,7 @@ ul {
     }
 
     .brand img{
-        width: 80%;
+        width: 100%;
     }
 
     .faq-div{

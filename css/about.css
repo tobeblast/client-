@@ -131,25 +131,62 @@ h1{
     margin-left: -22%;
 }
 
-/*.orange1{
+.orange1{
     background: url('../image/Steps Right.png');
-    background-color: hsl(355, 100%, 74%);
+    background-position: center;
+    background-repeat: no-repeat;
     width: 33.3%;
     height: 40vh;
+}
+
+.overlay1{
+    background: hsl(355, 100%, 74%);
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding: 0 90px;
 }
 
 .black1{
     background-image: url('../image/wire.png');
-
+    background-position: center;
+    background-repeat: no-repeat;
     width: 33.3%;
     height: 40vh;
 }
 
+.overlay2{
+    background: black;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding: 0 85px;
+}
+
 .purple{
     background-image: url('../image/wire.png');
+    background-position: center;
+    background-repeat: no-repeat;
     width: 33.3%;
     height: 40vh;
-}*/
+}
+
+.overlay3{
+    background: rgba(116, 67, 202, 0.90);;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding: 0 85px;
+}
 
 .cont{
     background: var(--Steelgrey, #E2E6E9);
@@ -328,7 +365,7 @@ h1{
 }
 
 footer{
-    margin-top: 10%!important;
+    margin-top: 6%!important;
 }
 
 .back {
@@ -477,6 +514,50 @@ footer{
 
     .set-div p{
         margin-left: 20px;
+    }
+
+    .overlay-div h4{
+        font-size: 20px;
+    }
+
+    .overlay-div p{
+        font-size: 16px;
+    }
+
+    .orange1 {
+        width: 33.3%;
+        height: 40vh;
+    }
+
+    .overlay1 {
+        width: 100%;
+        height: 100%;
+        padding: 0 0;
+        text-align: center;
+    }
+
+    .black1 {
+        width: 33.3%;
+        height: 40vh;
+    }
+
+    .overlay2 {
+        width: 100%;
+        height: 100%;
+        padding: 0 0;
+        text-align: center;
+    }
+
+    .purple {
+        width: 33.3%;
+        height: 40vh;
+    }
+
+    .overlay3 {
+        width: 100%;
+        height: 100%;
+        padding: 0 0;
+        text-align: center;
     }
 
     .jave {
@@ -667,6 +748,24 @@ footer{
         display: block!important;
         width: 100%!important;
     }
+
+    .overlay-div{
+        flex-direction: column;
+        margin-bottom: 8%;
+    }
+
+    .orange1 {
+        width: 100%;
+    }
+
+    .black1{
+        width: 100%;
+    }
+
+    .purple{
+        width: 100%;
+    }
+
 
     .valued h2{
         width: 100%;

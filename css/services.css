@@ -36,19 +36,20 @@ ul {
 }
 
 .black-div {
-    left: -40%;
+    left: -17%;
 }
 
 .black {
-    background: var(--Black, #1E1B1B);
-    height: 80%;
-    flex-shrink: 0;
-    width: 450px;
-    padding: 40px;
+    background: #1E1B1B;
+    width: 136%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56vh;
 }
 
 .black h4 {
-    color: var(--Light-Grey, #F2F2F2);
+    color: #F2F2F2;
     font-family: Manrope;
     font-size: 54px;
     font-style: normal;
@@ -69,12 +70,12 @@ ul {
 
 .black button {
     display: inline-flex;
-    padding: 16px 40px;
+    padding: 16px 50px;
     align-items: flex-start;
     border-radius: 12px;
     color: white;
     border: 0;
-    background: var(--Primary, #FF6433);
+    background: #FF6433;
 }
 
 .black button :hover{
@@ -405,20 +406,15 @@ ul {
         margin-left: 0;
     }
 
-    .leg{
-        width: 100%;
-        margin-left: -10px!important;
-    }
-
-    .black-div {
-        left: -70%;
-        width: 50%;
-    }
-
     .black {
-        width: 300px;
-        padding: 20px;
+        background: #1E1B1B;
+        width: 136%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40.3vh;
     }
+    
 
     .black h4 {
         font-size: 40px;
@@ -456,6 +452,8 @@ ul {
         flex-direction: column;
         align-items: center;
         row-gap: 35px;
+        padding: 0!important;
+        margin: 0!important;
     }
 
     .how h2{
@@ -506,25 +504,30 @@ ul {
     }
 
     .leg {
-        width: 100%;
-        margin-left: -56px!important;
+       flex-direction: column;
+       row-gap: 15px;
+       height: 460px;
+    }
+
+    .leg-car{
+        width: 100%!important;
     }
 
     .leg img{
-        width: 180%;
-        height: 60vh;
+        width: 100%;
     }
 
     .black-div {
-        left: -30%;
-        width: 40%;
-        height: 75vh;
+        width: 100%!important;
+        left: 0;
+        height: 100%;
     }
 
     .black {
         padding: 10px;
         text-align: center;
-        width: 200px;
+        display: block!important;
+        width: 100%;
     }
 
     .black h4 {
@@ -538,8 +541,8 @@ ul {
         font-size: 13px;
         font-weight: 200;
         line-height: 20px;
-        width: 150px;
-        margin-left: 15px;
+        width: 100%;
+        margin-left: 0px;
     }
 
     .black button {

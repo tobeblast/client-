@@ -182,7 +182,8 @@ footer p {
     }
 
     .home img{
-        width: 15%;
+        width: 10%;
+        margin-top: 20px;
     }
 
     .home p{
@@ -220,8 +221,12 @@ footer p {
         width: 100%;
     }
 
+    main{
+        height: 25vh;
+    }
+
     .map img {
-        top: 120px!important;
+        top: -23px!important;
     }
 
     .foot {
@@ -288,8 +293,12 @@ footer p {
         text-align: center;
     }
 
+    main{
+        height: 10vh;
+    }
+
     .map img {
-        top: 232px!important;
+        top: 10px!important;
     }
 
     .foot-div {
