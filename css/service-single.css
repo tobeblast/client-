@@ -300,6 +300,7 @@ h1{
     .ot-con{
         gap: 29px;
     }
+
     .warning {
         margin-top: -75%;
         width: 100%;
@@ -325,8 +326,6 @@ h1{
         line-height: 23px;
     }
 
-
-
     .Convenient p{
         font-size: 13px;
     }
@@ -351,12 +350,11 @@ h1{
 
     .ut {
         width: 100%;
-        /* top: 1px;        */
     }
 
     .ut img {
         width: 4px;
-        top: 20px;
+        margin-top: 20px!important;
         height: 80px;
         z-index: 2;
     }
@@ -367,21 +365,47 @@ h1{
         margin-left: 20px!important;
     }
 
-    .back-car {
-        width: 100%;
+    .back {
+        display: flex;
+        height: auto;
+        margin-top: 15%!important;
+        margin-bottom: -18%!important;
     }
 
-    .back-car img{
+    .back-car {
+        width: 50%;
+        padding: 0;
+    }
+
+    .back-car img {
         width: 100%;
-        height: 355px;
+        /* height: 200px; */
     }
 
     .orange {
-        height: 355px;
+        text-align: center;
+        left: 30%;
+        margin-right: -4%;
+        /* height: 200px; */
+        padding: 3px;
+    }
+
+    .orange p {
+        font-size: 38px;
+        font-weight: 50;
+        width: 100%;
+        line-height: 130%;
+        margin-top: 20px;
     }
 
     .wire {
+        padding: 0;
+        width: 50%;
+    }
+
+    .wire img {
         width: 100%;
+        /* height: 200px; */
     }
 
     .foot {
@@ -406,6 +430,7 @@ h1{
         width: 30%;
         height: 30%;
     }
+
     ul {
         margin-left: 0;
     }
@@ -444,6 +469,7 @@ h1{
 
     .warning {
         margin-top: 0;
+        margin-bottom: 0!important;
     }
 
     .road {
